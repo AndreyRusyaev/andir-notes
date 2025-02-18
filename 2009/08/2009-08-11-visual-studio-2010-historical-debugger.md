@@ -19,11 +19,11 @@ _Замечание: Ну и быстро говорит этот товарищ
 
 **Настройки в VS:**
 
-**![Скриншот: VS2010 Options - Historical Debugging](Скриншот__VS2010_Options_-_Historical_Debugging.png "Скриншот: VS2010 Options - Historical Debugging")**
+**![Скриншот: VS2010 Options - Historical Debugging](Screenshot__VS2010_Options_-_Historical_Debugging.png "Скриншот: VS2010 Options - Historical Debugging")**
 
 **Новая вкладка**:
 
-![Скриншот: Вкладка "Debug History" в действии](Скриншот__Вкладка_Debug_History_в_действии.png "Скриншот: Вкладка \"Debug History\" в действии") 
+![Скриншот: Вкладка "Debug History" в действии](Screenshot__Tab_Debug_History_in_action.png "Скриншот: Вкладка \"Debug History\" в действии") 
 
 Подробнее о новом отладчике можно прочитать:
 

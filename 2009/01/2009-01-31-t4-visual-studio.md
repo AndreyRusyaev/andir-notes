@@ -11,4 +11,4 @@ Visual Studio 2008 не очень радует пользователей T4 (�
 
 Цена: 99$, но существует бесплатная версия [T4 Editor Community edition for VS 2008](http://www.t4editor.net/downloads.html).
 
- ![Подсветка и Intellisense для T4](Подсветка_и_Intellisense_для_T4.png "Подсветка и Intellisense для T4")
+ ![Подсветка и Intellisense для T4](Highlight_and_Intellisense_for_T4.png "Подсветка и Intellisense для T4")

@@ -92,7 +92,7 @@ _Примечание: Увидеть, воочию, их регистрацию
 
 Запускаем и смотрим результат:
 
-[![Скриншот: Результат выполнения встроенных Expression Builders](Скриншот__Результат_выполнения_встроенных_Expression_Builders.png "Скриншот: Результат выполнения встроенных Expression Builders")](expressionstest[3].png)
+[![Скриншот: Результат выполнения встроенных Expression Builders](Screenshot__Result_execution_of_embedded_Expression_Builders.png "Скриншот: Результат выполнения встроенных Expression Builders")](expressionstest[3].png)
 
 Как видим, все значения из файла конфигурации и глобальных ресурсов вывелись на экран.
 
@@ -179,7 +179,7 @@ namespace Home.Andir.Examples
 
 Результат:
 
-[![Скриншот: Результат выполнения ReverseExpressionBuilder](Скриншот__Результат_выполнения_ReverseExpressionBuilder.png "Скриншот: Результат выполнения ReverseExpressionBuilder")](reverseexpression[5].png)
+[![Скриншот: Результат выполнения ReverseExpressionBuilder](Screenshot__Result_execution_of_ReverseExpressionBuilder.png "Скриншот: Результат выполнения ReverseExpressionBuilder")](reverseexpression[5].png)
 
 Как видно на скриншоте, наше выражение успешно отработало.
 

@@ -11,6 +11,6 @@ Textmate–like цветовая схема для Visual Studio
 
 Мне чёрный фон показался слишком контрастным, и я её тоже слегка модифицировал (установил серый фон). Получилось вот так:
 
-[![Скриншот: Тёмная цветовая схема для Visual Studio 2008 родом из TextMate](Скриншот__Тёмная_цветовая_схема_для_Visual_Studio_2008_родом_из_TextMate.png "Скриншот: Тёмная цветовая схема для Visual Studio 2008 родом из TextMate")](grayed_textmate_theme[3].png)
+[![Скриншот: Тёмная цветовая схема для Visual Studio 2008 родом из TextMate](Screenshot__Dark_color_schema_for_Visual_Studio_2008_originated_from_TextMate.png "Скриншот: Тёмная цветовая схема для Visual Studio 2008 родом из TextMate")](grayed_textmate_theme[3].png)
 
 Скачать мою модифицированную схему можно [здесь](Grayed_Textmate_Theme.zip "Файл: Тёмная цветовая схема для Visual Studio 2008").

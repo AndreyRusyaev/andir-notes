@@ -56,7 +56,7 @@ _Примечание: Более подробный пример использ
 
 Рассмотрим типичную модель древовидных данных хранимых в БД:
 
- ![Скриншот: Таблица в базе данных с типичной древовидной структурой](Скриншот__Таблица_в_базе_данных_с_типичной_древовидной_структурой.png "Скриншот: Таблица в базе данных с типичной древовидной структурой")
+ ![Скриншот: Таблица в базе данных с типичной древовидной структурой](Screenshot__Table_in_database_with_typical_tree_structure.png "Скриншот: Таблица в базе данных с типичной древовидной структурой")
 
 Как видно на скриншоте, модель представляет собой таблицу со следующими полями: ID – уникальный идентификатор записи, ParentID – ключ для связи с родительской записью или NULL – если запись является корневой.
 
@@ -64,11 +64,11 @@ _Примечание: Более подробный пример использ
 
 Первая – это прямолинейная проекция структуры БД на объект:
 
- ![Скриншот: Диграмма классов для PlainTreeModel](Скриншот__Диграмма_классов_для_PlainTreeModel.png "Скриншот: Диграмма классов для PlainTreeModel")
+ ![Скриншот: Диграмма классов для PlainTreeModel](Screenshot__Class_diagram_for_PlainTreeModel.png "Скриншот: Диграмма классов для PlainTreeModel")
 
 Второй вариант обычно возникает при использовании продвинутых средств отображения (ORM):
 
-![Скриншот: Диаграмма классов для ORMTreeModel](Скриншот__Диаграмма_классов_для_ORMTreeModel.png "Скриншот: Диаграмма классов для ORMTreeModel")
+![Скриншот: Диаграмма классов для ORMTreeModel](Screenshot__Class_diagram_for_ORMTreeModel.png "Скриншот: Диаграмма классов для ORMTreeModel")
 
 В данном случае, видим что вместо одного поля **ParentID** создано два дополнительных поля: **Parent** и **Children**. **Parent** – это ссылка на родительский элемент **ORMTreeModel**, а **Children** – перебираемая последовательность дочерних объектов **ORMTreeModel**.
 
@@ -80,7 +80,7 @@ _Примечание: Более подробный пример использ
 
 Вот как это выглядит в виде диаграммы классов:
 
-![Скриншот: Диаграмма классов для реализации IHierarchicalDataSource](Скриншот__Диаграмма_классов_для_реализации_IHierarchicalDataSource.png "Скриншот: Диаграмма классов для реализации IHierarchicalDataSource")
+![Скриншот: Диаграмма классов для реализации IHierarchicalDataSource](Screenshot__Class_diagram_for_implementation_of_IHierarchicalDataSource.png "Скриншот: Диаграмма классов для реализации IHierarchicalDataSource")
 
 Центральным звеном реализации является IHierarchyData, который и абстрагирует модель древовидных данных.
 
@@ -679,7 +679,7 @@ namespace Home.Andir.Examples
 
 Для доступа к этой БД будем использовать Entity Framework, модель будет выглядеть следующим образом:
 
-![Скриншот: Departments на диаграмме модели Entity Framework](Скриншот__Departments_на_диаграмме_модели_Entity_Framework.png "Скриншот: Departments на диаграмме модели Entity Framework")
+![Скриншот: Departments на диаграмме модели Entity Framework](Screenshot__Departments_on_diagram_model_Entity_Framework.png "Скриншот: Departments на диаграмме модели Entity Framework")
 
 Реализуем слой данных для доступа к данным в этой таблице:
 
@@ -779,7 +779,7 @@ namespace Home.Andir.Examples
 
 Для проверки запускаем:
 
-![Скриншот: Результат выполнения TreeViewWithRepository](Скриншот__Результат_выполнения_TreeViewWithRepository.png "Скриншот: Результат выполнения TreeViewWithRepository")
+![Скриншот: Результат выполнения TreeViewWithRepository](Screenshot__Result_of_execution_TreeViewWithRepository.png "Скриншот: Результат выполнения TreeViewWithRepository")
 
 Вот, наконец-то, всё заработало :-)
 

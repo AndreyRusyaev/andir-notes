@@ -54,6 +54,6 @@ namespace Home.Andir.Examples
 
 Отладчик, подменяет все заданные **IRouteHandler** на свой **DebugRouteHandler** и теперь, если перейти на любой заданный маршрут, то можно увидеть следующую картину:
 
- ![Скриншот: RouteDebugger в действии](Скриншот__RouteDebugger_в_действии.png "Скриншот: RouteDebugger в действии")
+ ![Скриншот: RouteDebugger в действии](Screenshot__RouteDebugger_in_action.png "Скриншот: RouteDebugger в действии")
 
 Здесь можно увидеть список всех зарегистрированных маршрутов и порядок их срабатывания (в первой колонке).
