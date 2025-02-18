@@ -12,7 +12,7 @@ _Примечание: Эта статья про первую версию Silv
 Что мне понадобилось для препарирования: [Silverlight 1.0](http://go.microsoft.com/fwlink/?LinkID=88632&clcid=0x409), [Silverlight SDK 1.0](http://www.microsoft.com/downloads/details.aspx?FamilyId=FB7900DB-4380-4B0F-BB95-0BAEC714EE17&displaylang=en), [Expression Blend 2 August Preview](http://www.microsoft.com/downloads/details.aspx?familyid=69540337-B619-4A47-AC27-52D8AF3A7830&displaylang=en) (графический редактор, который позволяет создавать и проекты Silverlight).
 
 Установка проходит быстро и безболезненно, единственный момент, что юзабилити окна окончания установки желает лучшего:  
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYA7dwRasEbwM4UGkrb9iIHWvIBGZs-4PJivJc2us11WJ3GQtA-mwPKOkpOluFU5xNnwMPMFiqo5yFbZbE52rxgc6ZMUpF4KuH0hjDfvBs7_Ihpn1MyHoqlM9VLaD9ZpL3NLkcnAoinT8/s400/silverlight-install.gif)](silverlight-install.gif)
+![screenshot-silverlight-installed](silverlight-install.gif)
 
 Кусочек льда(?) на сплеше-подобном окне, конечно, выглядит красиво, но мало того, что браузер надо рестартовать самому, так и совершенно неясно, что же делать дальше - приходится прерывать свой ступор и закрывать окно крестиком сверху.
 
@@ -116,7 +116,7 @@ Sample.html:
 *   Далее внутри проверяются исходные параметры, и создаётся объект-плеера или же возникает ошибка.
 
 Теперь, если всё это запустить, то можно увидеть желанную надпись:  
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKyNIbd4Y1H_WQiYdDT5PHEbOByqWkrgEVPeLJ-AJrsxKWw3TwYWEqlcgfrtqqFb-kf_jpAKqFA-E5HXGnmsWlhbFjMrNdBt01RHXSzpgpskvtsXPeZmacRdSRGAmFnXmg4p-URuJdyCs/s400/silverlight-sample.gif)](silverlight-sample.gif)
+![screenshot-silverlight-sample](silverlight-sample.gif)
 
 Конечно же, интересно заглянуть внутрь этого всего. Используя расширение Firebug, можно увидеть такую картину:
 
